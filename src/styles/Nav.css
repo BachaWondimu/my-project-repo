@@ -1,0 +1,26 @@
+/* Nav.css */
+nav {
+  background-color: #007bff; /* Primary color for the nav */
+  padding: 10px; /* Padding for the nav */
+  text-align: center; /* Center the links */
+}
+
+nav ul {
+  list-style-type: none; /* Remove bullet points from the list */
+  padding: 0; /* Remove padding */
+}
+
+nav ul li {
+  display: inline; /* Display links inline */
+  margin: 0 15px; /* Space between the links */
+}
+
+nav ul li a {
+  color: white; /* White text color */
+  text-decoration: none; /* Remove underline from links */
+  font-weight: bold; /* Bold text for links */
+}
+
+nav ul li a:hover {
+  text-decoration: underline; /* Underline on hover */
+}

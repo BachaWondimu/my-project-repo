@@ -1,0 +1,77 @@
+/* Profile.css */
+.profile-container {
+  max-width: 400px; /* Limit the width of the profile form */
+  margin: auto; /* Center the form on the page */
+  padding: 20px; /* Add some padding inside the container */
+  border: 1px solid #ccc; /* Light border around the form */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  background-color: #f9f9f9; /* Light background color */
+}
+
+h2 {
+  text-align: center; /* Center the heading */
+  margin-bottom: 20px; /* Space below the heading */
+  color: hsl(141, 95%, 50%); /* Dark color for text */
+}
+
+.profile-info {
+  text-align: center; /* Center align the profile info */
+  margin-bottom: 20px; /* Space below profile info */
+}
+
+.profile-image {
+  width: 100px; /* Set a fixed width for the profile image */
+  height: 100px; /* Set a fixed height for the profile image */
+  object-fit: cover; /* Ensure the image covers the area without distortion */
+  border-radius: 50%; /* Make the image circular */
+  border: 2px solid hsl(141, 95%, 50%); /* Add a border around the image */
+}
+
+h3 {
+  margin-top: 10px; /* Space above the user name */
+  font-size: 18px; /* Font size for user name */
+  color: #333; /* Darker color for user name */
+}
+
+.error {
+  color: red; /* Color for error messages */
+  text-align: center; /* Center align error messages */
+  margin-bottom: 15px; /* Space below error messages */
+}
+
+.success {
+  color: green; /* Color for success messages */
+  text-align: center; /* Center align success messages */
+  margin-bottom: 15px; /* Space below success messages */
+}
+
+form {
+  display: flex; /* Use flexbox for the form layout */
+  flex-direction: column; /* Stack form elements vertically */
+}
+
+form div {
+  margin-bottom: 15px; /* Space between form elements */
+}
+
+input[type="file"] {
+  display: block; /* Block display for the file input */
+  margin: 10px 0; /* Space around the file input */
+}
+
+button {
+  width: 100%; /* Full width for the button */
+  padding: 10px; /* Padding inside the button */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Slightly rounded corners */
+  background-color: #007bff; /* Primary button color */
+  color: white; /* Text color */
+  font-size: 16px; /* Font size for button text */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}

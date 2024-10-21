@@ -1,0 +1,72 @@
+/* Container for the form */
+.signup-container {
+  max-width: 400px; /* Limit the width of the form */
+  margin: auto; /* Center the form on the page */
+  padding: 20px; /* Add some padding inside the container */
+  border: 1px solid #ccc; /* Add a light border around the form */
+  border-radius: 8px; /* Round the corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  background-color: #f9f9f9; /* Light background color */
+}
+
+/* Style for the headings */
+h2 {
+  text-align: center; /* Center the heading */
+  margin-bottom: 20px; /* Space below the heading */
+  color: #0f0598; /* Dark color for text */
+}
+
+/* Style for form elements */
+form {
+  display: flex; /* Use flexbox for the form layout */
+  flex-direction: column; /* Stack form elements vertically */
+}
+
+form div {
+  margin-bottom: 15px; /* Space between form elements */
+}
+
+/* Input field styles */
+input[type="email"],
+input[type="password"],
+input[type="text"],
+input[type="file"] {
+  width: 100%; /* Full width of the container */
+  padding: 10px; /* Padding inside input fields */
+  border: 1px solid #ccc; /* Border around input fields */
+  border-radius: 4px; /* Slightly rounded corners */
+  font-size: 14px; /* Font size for input text */
+}
+
+/* Button styles */
+button {
+  width: 100%; /* Full width for the button */
+  padding: 10px; /* Padding inside the button */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Slightly rounded corners */
+  background-color: #007bff; /* Primary button color */
+  color: white; /* Text color */
+  font-size: 16px; /* Font size for button text */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Success message styles */
+.success-message {
+  color: green; /* Set the text color to green */
+  text-align: center; /* Center align the success message */
+  margin-top: 15px; /* Space above the success message */
+  font-weight: bold; /* Make the text bold */
+}
+
+/* Error message styles */
+.error {
+  color: red; /* Color for error messages */
+  text-align: center; /* Center align error messages */
+  margin-bottom: 15px; /* Space below error messages */
+}
