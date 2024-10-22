@@ -89,7 +89,7 @@ const Profile = () => {
 
   return (
     <div className="profile-container">
-      <h2>Profile</h2>
+      <h2>P</h2>
       <div className="profile-info">
         <img
           src={profileData.profileImageUrl || "default-avatar.png"}
